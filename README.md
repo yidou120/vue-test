@@ -1,19 +1,8 @@
-# vue_1
-
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+###SpringBoot+Vue前后端分离小练习
+[前端地址](https://github.com/yidou120/vue-test) <br> 
+[后端地址](https://github.com/yidou120/springboot-vue)
+###跨域问题解决
+使用后端解决,定义一个配置类,实现WebMvcConfigurer,重写addCorsMappings方法
+###版本
+springboot 2.2.2.RELEASE
+vue-cli 3
